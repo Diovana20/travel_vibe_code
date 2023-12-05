@@ -1,0 +1,16 @@
+body{
+    max-width: 2000px;
+    margin: auto;
+}
+
+.homecontainer{
+    text-align: center;
+}
+
+.posthome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+

@@ -1,0 +1,64 @@
+.create_post {
+    text-align: center;
+  }
+  
+  .create_post h2 {
+    font-size: 1.5rem;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: Georgia;
+    color: #3b3b3b;
+  }
+  
+  .create_post p {
+    color: #aaa;
+  }
+
+  .create_post form{
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .label_description{
+    background-color: #eeecec;
+    width: 25rem;
+    height: 10rem;
+    border: 0;
+    padding: 10px;
+    font-family: Georgia;
+}
+
+.localizationpost{
+    margin-top: 2rem;
+    background-color: #eeecec;
+    width: 25rem;
+    height: 2rem;
+    border: 0;
+    padding: 5px;
+    font-family: Georgia;
+}
+
+
+.create_post span{
+    font-size: 1rem;
+    font-family: Georgia;
+}
+
+.imagem{
+    margin-top: 2rem;
+}
+
+.imagem input{
+    margin-top: 1rem;
+}
+
+.buttonpost{
+    margin-top: 4rem;
+    width: 7rem;
+    height: 2rem;
+    border: 0;
+    background-color: #F5C445;
+    color: #eeecec;
+    border-radius: 7px;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,186 @@
+.detailpost {
+    display: flex;
+    margin-top: 2rem;
+    
+  }
+  
+  .detailimage {
+    width: 20rem;
+    height: 26rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .detailimage:hover {
+    transform: scale(1.01);
+  }
+  
+  .post-content {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between; /* Isso permite que os itens se alinhem verticalmente */
+  }
+  
+  .detaildescription {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .iconpost {
+    width: 15px;
+    margin-right: 2px;
+    
+  }
+  .localization-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .hearticon {
+    font-size: 20px;
+    background-color: transparent;
+    color: red;
+    border: 0;
+    margin-left: 18rem;
+    position: absolute;
+  }
+  .btn-outline {
+    /* Adicione estilos para o botão conforme necessário */
+  }
+  .containermodal{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20rem;
+    background-color: rgb(255, 255, 255);
+    height: 85%;
+    max-width: 50rem;
+    max-height: 100rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+  }
+
+  .detailimagemodal{
+    width: 25rem;
+    height: 35rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+  .detailimagemodal:hover {
+    transform: scale(1.01);
+  }
+
+  .detaildescriptionmodal{
+    background-color: #9a9a9a22;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 1rem;
+    margin-bottom: 26rem;
+  }
+
+  .localization-container-modal{
+    flex-direction: row;
+    align-self: flex-end;
+    margin-bottom: 5rem;
+    margin-left: 1rem
+  }
+
+  .iconpostmodal{
+    background-color: aqua;
+    width: 15px;
+    height: 15px;
+  }
+
+  .containermodal .buttonmodal {
+    width: 1.25rem;
+    height: 1.25rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: black;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    display: flex;
+  }
+
+  .containermodal .buttonmodal::before,
+  .containermodal .buttonmodal::after{
+    content: "";
+    position: absolute;
+    width: 1.25rem;
+    height: 0.125rem;
+    background-color: currentColor;
+    border-radius: 0.125rem;
+  }
+
+  .containermodal .buttonmodal::before{
+    transform: rotate(45deg);
+    left: 0;
+    top: calc(1.25rem / 2);
+  }
+
+  .containermodal .buttonmodal::after{
+    transform: rotate(-45deg);
+    left: 0;
+    top: calc(1.25rem / 2);
+  }
+
+  .description-buton {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .avatar-container{
+    display: flex;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+
+  .avatar-container p{
+    margin-left: 8px;
+    font-size: 12px;
+  }
+
+  .nameuser{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 10px;
+  }
+
+  .avatar-container span{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+
+  .localization {
+    position: absolute;
+    margin-top: 35rem;
+    text-align: center;
+    height: 3rem;
+    width: 50%;
+    background: linear-gradient(to bottom,#ffffff89 , #454545 );
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+  }
+
+  .detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .detail span{
+    color: aliceblue;
+  }

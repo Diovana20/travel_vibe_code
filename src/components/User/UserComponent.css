@@ -1,0 +1,60 @@
+.containeruser {
+    display: flex;
+    justify-content: center;
+}
+
+.avatarUser{
+    margin-top: 5rem;    
+}
+
+.userName{
+    margin-top: 0.5rem;
+}
+
+.publicacoesUser{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.publicacoesUser p:hover{
+    
+    text-decoration: underline;
+}
+
+.publipost{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80rem;
+    justify-content: center;
+}
+
+.biografia input{
+    margin-top: 1rem;
+    font-size: 14px;
+    height: 200px;
+    background-color: rgb(239, 238, 238);
+    width: 500px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.inputavatar{
+    font-size: 10px;
+}
+
+.containeruser form .botaofoto{
+    background-color: #F5C445;
+    color: aliceblue;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    border: 1px black;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.containeruser form .inputphoto{
+    font-size: 13px;
+    margin-top: 2rem;
+}

@@ -1,0 +1,12 @@
+body{
+    max-width: 2000px;
+    margin: auto;
+}
+
+.usercontainer{
+    text-align: center;
+}
+
+.usuario{
+    max-height: 1rem;
+}
