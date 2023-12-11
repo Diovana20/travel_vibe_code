@@ -92,7 +92,7 @@ const PostPage = () => {
   return (
     <div className="create_post">
       <h2>Compartilhe suas aventuras!</h2>
-      <p>Compartilhe suas aventuras!</p>
+      <p>Compartilhe momentos e experiências</p>
       <form onSubmit={handleSubmit}>
         <div>
           <label>
